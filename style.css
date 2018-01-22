@@ -58,3 +58,37 @@ header .h_right input[type="text"]{
   padding:5px;
   margin-top:5px;
 }
+
+/* Navigation Menu */
+nav.nav li{
+  float: left;
+  display: inline;
+  padding-right: 15px;
+}
+
+nav.nav a{
+  text-decoration: none;
+}
+
+nav.main-nav{
+  height:45px;
+  overflow:hidden;
+  background:#333;
+  color:#fff;
+  padding-top:7px;
+}
+
+nav.main-nav li{
+  height:40px;
+  line-height:40px;
+}
+
+nav.main-nav a{
+  color:#fff;
+  text-decoration:none;
+  padding:8px;
+}
+
+nav.main-nav a:hover{
+  color: #009acd;
+}
