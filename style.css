@@ -140,3 +140,43 @@ article.post .meta{
   padding:10px 15px;
   display:inline-block;
 }
+
+/* Footer */
+footer.main-footer{
+  margin-top:40px;
+  text-align:center;
+  background:#333;
+  color:#fff;
+  height:60px;
+  padding-top:10px;
+  overflow:auto;
+}
+
+footer.main-footer .f_left{
+  float:left;
+}
+
+footer.main-footer .f_right{
+  float:right;
+}
+
+footer.main-footer li{
+  float:left;
+  padding-right:10px;
+  list-style:none;
+}
+
+footer.main-footer a{
+  color:#fff;
+  text-decoration:none;
+  padding:8px;
+}
+
+footer.main-footer a:hover{
+  color: #009acd;
+}
+
+footer.main-footer .f_right{
+  float:right;
+  margin-top:15px;
+}
